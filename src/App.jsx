@@ -27,6 +27,8 @@ function App() {
 
       <div className="counter-container">
         <Counter clikcNumber={clikcNumber} />
+
+        <div className="button-container">
         <Boton
           name="Click"
           isBotonClick={true}
@@ -38,6 +40,7 @@ function App() {
           isBotonClick={false}
           clickController={resetController}
         />
+        </div>
       </div>
     </div>
   );

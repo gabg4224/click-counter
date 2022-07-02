@@ -22,3 +22,11 @@ button:hover{
 .boton-reset{
     background-color: #5a01a7;
 }
+
+@media screen and (max-width: 550px) {
+    button {
+        height: 3.5rem;
+        font-size: 2.5em;
+
+      }
+}
